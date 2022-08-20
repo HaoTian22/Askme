@@ -2,8 +2,14 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Overpass','OPPOSans','PingFang SC',sans-serif;
+  font-family: 'OPPOSans','PingFang SC','Segoe UI',sans-serif;
 }
+
+@font-face {
+    font-family: OPPOSans;
+    src:url('https://code.oppo.com/content/dam/oppo/common/fonts/font2/new-font/OPPOSansOS2-5000-Medium.woff2')
+}
+
 
 a {
   color: inherit;
